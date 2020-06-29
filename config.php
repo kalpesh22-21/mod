@@ -17,8 +17,8 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = '/tmp';
-$CFG->dataroot  = 'http://gradlearning.herokuapp.com/';
+$CFG->wwwroot   = 'http://gradlearning.herokuapp.com/';
+$CFG->dataroot  = '/tmp';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
